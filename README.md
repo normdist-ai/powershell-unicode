@@ -22,10 +22,24 @@ This skill automatically prepends a UTF-8 encoding preamble to every PowerShell 
 
 ## Install
 
-In CherryClaw / CherryStudio, run:
+Skill identifier: `normdist-ai/powershell-unicode/powershell-unicode`
+
+### CherryClaw / CherryStudio
+
+Ask the agent to install the skill:
 
 ```
-/install normdist-ai/powershell-unicode
+安装技能 normdist-ai/powershell-unicode/powershell-unicode
+```
+
+The agent will use the skill management tool to install and enable it automatically.
+
+### Manual
+
+Download [`SKILL.md`](./SKILL.md) and place it in your skills directory:
+
+```
+<CherryStudio Data>/Skills/powershell-unicode/SKILL.md
 ```
 
 ## Usage
@@ -85,10 +99,14 @@ MIT
 
 ### 安装
 
-在 CherryClaw / CherryStudio 中运行：
+技能标识符：`normdist-ai/powershell-unicode/powershell-unicode`
+
+让 Agent 安装：
 
 ```
-/install normdist-ai/powershell-unicode
+安装技能 normdist-ai/powershell-unicode/powershell-unicode
 ```
+
+或手动下载 [`SKILL.md`](./SKILL.md) 放入技能目录 `<CherryStudio Data>/Skills/powershell-unicode/`。
 
 安装后**全自动生效**，无需任何手动操作。
